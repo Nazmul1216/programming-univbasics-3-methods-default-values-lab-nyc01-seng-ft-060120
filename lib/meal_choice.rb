@@ -1,9 +1,9 @@
 # Your code here
 # For output purposes, use "puts" instead of "print" or "p"
 
-def meal_choice(veg1, veg2, protein=tofu)
+def meal_choice(veg1, veg2, protein='tofu')
   puts "What a nutricious meal!"
-  p "A plate of #{protein} with #{veg1} with #{veg2}."
+  puts "A plate of #{protein} with #{veg1} with #{veg2}."
 end
 
 meal_choice('carrots', 'string beans', 'lentils')
